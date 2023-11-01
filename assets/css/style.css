@@ -1,0 +1,776 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+   width: 100%;
+    height: 20.0308%;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 70px;
+    align-items: center;
+     position: absolute;
+    gap: 15px;
+}
+ nav h1{
+    color: #054C73;
+    font-size: 34px;
+    font-weight: 700;
+ }
+ nav ul{
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    list-style: none;
+ }
+ nav ul a{
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+ }
+ .hero{
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url("./../img/photo.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 0;
+}
+ .part{
+   width: 643px;
+   height: 446px;
+   margin-top: 49px;
+   padding-left: 50px;
+   position: absolute;
+   background-color: #DFE9F4;
+   padding-top: 40px;
+   padding-left: 50px;
+ }
+ .part .p1{
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    width: 129.292px;
+    height: 21px;
+ }
+ .part .p2{
+    color: #054C73;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-top: 10px;
+    width: 420px;
+    height: 118px;
+    margin-top: 13px;
+ }
+ .part .p3{
+   width: 523.597px;
+   height: 63.675px;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 39px;
+   margin-top: 22px; 
+ }
+ .buy{
+    background-color: #054C73;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 72px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    height: 68px;
+    margin-top: 60.33px;
+    margin-bottom: 40px;
+ }
+ nav .button{
+    width: 24px;
+    height: 24px;
+    margin: 40px 40px;
+    background: none;
+    border: none;
+    color: rgba(109, 109, 112, 1);
+    display: none;
+ }
+ .sec1{
+   max-width: 100vw;
+   height: 149px;
+   padding-left: 70px;
+   padding-right: 70px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color:#F2F5FF;
+   top: 0;
+ }
+ .car{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 32.5px;
+ }
+ .image-car{
+   width: 87.569px;
+   height: 55px;
+ }
+ .time{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 32.5px;
+ }
+ .image-time{
+   width: 65.724px;
+   height: 55px;
+ }
+ .accept{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 32.5px;
+ }
+ .image-accept{
+   width: 55px;
+   height: 55px;
+ }
+ .main{
+   color:#333;
+font-size: 24px;
+font-weight: 600;
+ }
+ .lorem{
+   color: #333;
+font-size: 16px;
+font-weight: 400;
+ }
+ .sec2{
+  max-width: 100vw;
+ }
+ .sec2 h1{
+   width: 395px;
+   height: 49px;
+   margin: auto;
+   margin-top: 100px;
+   text-align: center;
+ }
+ .sec2 p{
+   width: 469px;
+   height: 48.18px;
+   color:#666;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 400;
+   margin: auto;
+ }
+ .sec2 .images{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+ .sec2 .images .living-room{
+   display: flex;
+   width: 363px;
+   height: 460.254px;
+ }
+ .sec2 .images .sitting-room{
+   display: flex;
+   border-radius: 0;
+   transform: translateY(-40px);
+   width: 400px;
+   height: 460px;
+ }
+ .sec2 .images .lamp{
+   display: flex;
+   width: 364px;
+   height: 460.254px;
+
+ }
+ .sec3{
+  max-width: 100vw;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .sec3 h1{
+   width: 384px;
+   height: 39px;
+   color:#333;
+   font-size: 32px;
+   font-weight: 700;
+   text-align: left;
+  /*  margin-left: 70px; */
+ }
+ .sec3 .p1{
+   width: 495px;
+   height: 111px;
+   color: #666;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 39px; /* 195% */
+   margin-top: 47px;
+ }
+ .sec3 .p2{
+   width: 495px;
+   height: 111px;
+   color: #666;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 39px; /* 195% */
+   margin-top: 16px;
+ }
+ .sec3 .right img{
+   width: 601px;
+   height: 528px;
+ }
+ .sec3 .left .learn{
+   padding: 25px 72px;
+   color: #FFF;
+   font-size: 16px;
+   font-weight: 700;
+   border-radius: 50px;
+   background-color: #054C73;
+ }
+ .sec4{
+   max-width: 100vw;
+   border-bottom: #D7D6D6 solid 2px;
+ }
+ .sec4 h1{
+   width: 395px;
+   height: 49px;
+   margin: auto;
+   margin-top: 100px;
+   text-align: center;
+   color:  #333;
+   font-size: 32px;
+   font-weight: 700;
+ }
+ .sec4 .text{
+ max-width: 530px;
+   height: 37.678px;
+   margin: auto;
+   text-align: center;
+   color: #666;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 400;
+ }
+ .picture{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 70px;
+ }
+ .picture img{
+   width: 381px;
+   height: 480px;
+   border-radius: 11px;
+ }
+ .picture  p{
+   text-align: center;
+   margin-top: 15px;
+   color: #333;
+   font-size: 16px;
+   margin-bottom: 100.65px;
+ }
+ .sec5{
+  max-width: 100vw;
+ }
+ .sec5 h1{
+   width: 360px;
+   height: 49px;
+   margin: auto;
+   margin-top: 100px;
+   text-align: center;
+ }
+ .sec5 p{
+   width: 469px;
+   height: 48.18px;
+   margin: auto;
+   text-align: center;
+   color: #666;
+ }
+ .work{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 70.35px;
+   margin-left: 10px;
+   margin-right: 15px;
+ }
+ .work h2{
+   color:#333;
+   font-size: 24px;
+   font-weight: 700;
+   text-align: center;
+   margin-top: px;
+ }
+ .work .p{
+   width: 361.421px;
+   height: 52.035px;
+   color:  #666;
+   text-align: center;
+   font-size: 18px;
+   margin-top: 12px;
+   font-weight: 400;
+   line-height: 28px; /* 155.556% */
+   margin-bottom: 73.93px;
+ }
+.lap{
+  width: 381px;
+  height: 400px;
+}
+.com{
+  width: 378px;
+  height: 400px;
+}
+.style{
+  width: 381px;
+  height: 400px;
+}
+.circle{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #FCFCFC;
+  margin: auto;
+  transform: translateY(-50px);
+ }
+ .num{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #111;
+  margin: auto;
+  transform: translateY(15px);
+ }
+ .num p{
+  width: 16px;
+  height: 23px;
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  transform: translateY(15px);
+ }
+ .sec6{
+  max-width: 100vw;
+   background: #F2F5FF;
+   width: 100%;
+   height: 64.4067;
+ }
+ .sec6 h1{
+   color: #333;
+   padding-top: 90px;
+   text-align: center;
+   font-size: 32px;
+   font-weight: 700;
+ }
+ .sec6 p{
+   width: 530px;
+   height: 68px;
+   color: #666;
+   margin: auto;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 39px; /* 195% */
+   padding-top: 80px;
+ }
+ .input{
+   width: 380.583px;
+   height: 76.745px;
+   border-radius: 3px;
+   border: 1px solid #054C73;
+   background: #FFF;
+   padding-left: 20px;
+   margin-bottom: 82.25px;
+ }
+ .submit{
+   width: 149.27px;
+   height: 76.745px;
+   border-radius: 3px;
+   border: 1px solid #011C42;
+   background: #054C73;
+   color: #FFF;
+   font-size: 16px;
+   font-weight: 700;
+   margin-left: -5px;
+ }
+ .form{
+   text-align: center;
+   margin-top: 150px;
+ }
+ .footer{
+   width: 100%;
+   height: 71.6486%;
+   background: #03344F;
+   display:flex ;
+   justify-content: space-between;
+   align-items: center;
+   color: #fff;
+ }
+ .pargraph h1{
+   width: 154px;
+   height: 28px;
+   font-size: 24px;
+   font-weight: 700;
+   margin-left: 88px;
+ }
+ .pargraph p{
+   width: 410px;
+   height: 100px;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 35px;
+   margin-left: 88px;
+   color: #fff;
+   padding-top: 25px;
+   text-align: left;
+ }
+ .photo{
+  margin-top: 180px;
+  
+ }
+ .photo h1{
+   margin-right: 70px;
+   text-align: right;
+   margin-bottom: 10px;
+ }
+ .photo .home{
+   margin-right: 70px;
+   margin-bottom: 116px;
+   display: flex;
+   gap: 25px;
+ }
+.photo .home img{
+   width: 175px;
+   height: 176px;
+   border-radius: 2px;
+
+}
+ 
+ @media screen and (max-width:992px) {
+   
+   .hero{
+        background-position:center;   
+    }
+    nav ul{
+        display: none;
+    }
+    nav{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    nav .button{
+        display: inline;
+    }
+    .part{
+      width: 360px;
+      background: none;
+      text-align: center;
+      width: auto;
+
+    }
+    .part .p1{
+      text-align: center;
+      width: 333px;
+      height: 17px;
+      font-size: 1rem;
+      margin: 53px 14px;
+    }
+    .part .p2{
+      width: 360px;
+      height: 75px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 43px;
+    }
+    .part .p3{
+      text-align: center;
+      width: 360px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 28px;
+    }
+    .buy{
+      display: inline-flex;
+      height: 68px;
+      padding: 25px 72px;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .sec1{
+      width: 100vw;
+      height: 382px;
+      flex-wrap: wrap-reverse;
+      padding-left: 30px;
+    }
+    .car ,.time ,.accept{
+      display: inline-flex;
+      align-items: flex-start;
+      gap: 32px;
+    }
+   .main{
+      width: 180.592px;
+   }
+   .lorem{
+      width: 206.21px;
+      font-size: 16px;
+      font-weight: 400;
+   }
+   .sec2{
+      width: 360px;
+      height: 1478px;
+   }
+   .sec2 h1{
+      width: 292px;
+      height: 37px;
+      font-size: 26px;
+      text-align: center;
+   }
+   .sec2 p{
+      width: 210px;
+      height: 44.052px;
+      font-size: 14px;
+      text-align: center;
+   }
+   .sec2 .images{
+      flex-wrap: wrap;
+      object-fit: contain;
+      gap: 25px;
+   }
+   .sec2 .images .living-room{
+      width: 320.179px;
+      height: 394.218px;
+      margin-top: 59.73px;
+      margin-bottom: 30px;
+   }
+   .sec2 .images .sitting-room{
+      width: 320px;
+      height: 394px;
+      margin-top: 30px;
+      margin-bottom: 0;
+   }
+   .sec2 .images .lamp{
+      width: 317px;
+      height: 394px;
+      margin-top: 20px;
+   }
+   .sec3{
+      flex-wrap: wrap;
+      margin-top: 100px;
+   }
+   .sec3 .left h1{
+      width: 298px;
+      height: 37px;
+      font-size: 26px;
+      font-weight: 700;
+      margin-left: 20px;
+      text-align: left;
+   }
+   .sec3 .left .p1{
+      width: 312px;
+      height: 203px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 34px;
+      margin-left: 20px;
+      margin-bottom: 0;
+   }
+   .sec3 .left .p2{
+      margin-left: 20px;
+      width: 307px;
+      height: 74px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 34px;
+   }
+   .sec3 .left .learn{
+      height: 68px;
+      gap: 10px;
+      margin-top: 40px;
+      margin-left: 50px;
+      margin-bottom: 40px;
+   }
+   .sec3 .right img{
+      width: 100vw;
+      width: 360px;
+      height: 385px;
+      text-align: center;
+   }
+   .sec4{
+    margin-bottom: 80px;
+   }
+   .sec4 .picture{
+      text-align: center;
+      flex-wrap: wrap;
+   }
+   .picture img{
+      width: 320px;
+      height: 360px;
+      margin:20px 20px 0 20px;
+   }
+   .picture .pic1 p ,.picture .pic2 p ,.picture .pic3 p{
+    width: 79.112px;
+    height: 23.352px;
+    margin: auto;
+   }
+   .picture .pic3 p{
+    margin-bottom: 80px;
+   }
+   .sec4 h1{
+      width: 257px;
+      height: 37px;   
+      text-align: center;
+      font-size: 26px;
+      font-weight: 700;
+   }
+   .sec4 text{
+    width: 210px;
+    height:20px;
+      color: #666;
+      text-align: center;
+      font-size:14px;
+      font-weight: 400;
+   }
+   .sec5 h1{
+      width: 200px;
+      height: 37px;
+      font-size: 26px;
+      font-weight: 700;
+      margin-top: 55px;
+      text-align: center;
+   }
+   .sec5 p{
+      width: 210px;
+      height: 44.04px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 40px;
+   }
+   .sec5 .work{
+      flex-wrap: wrap;
+   }
+        .lap{
+          width: 320px;
+          height: 340.428px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+        .com{
+          width: 320px;
+          height: 365.386px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+        .style{
+          width: 320px;
+          height: 341px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+   .work .laptop .h ,.work .company .h,.work .room .h{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+   }
+   .work .laptop .p,.work .company .p,.work .room .p{
+    width: 314px;
+    height: 51.756px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 20px;
+   }
+.num p{
+  width: 22.4px;
+  height: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+  
+   .sec6 h1{
+      width: 304px;
+      text-align: center;
+      margin: auto;
+      font-size: 26px;
+      font-weight: 700;
+   }
+   .sec6 p{
+      width: 320px;
+      height: 68px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 30px;
+   }
+   .input{
+      width: 320px;
+      height: 55.81px;
+      margin-bottom: 18.19px;
+      margin-top: 34.62px;
+   }
+   .submit{
+      width: 149px;
+      height: 51px;
+      margin-top: 18.19px;
+      margin-bottom: 94.38px;
+   }
+   .footer{
+      flex-wrap: wrap;
+   }
+   .pargraph h1{
+      width: 154px;
+      height: 28px;
+      font-size: 24px;
+      font-weight: 700;
+      margin-left: 20px;
+      margin-top: 55px;
+   }
+   .pargraph p{
+      width: 290px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 35px;
+      height: 206px;
+      margin-left: 20px;
+      text-align: left;
+   }
+   .photo h1{
+      width: 200px;
+      height: 28px;
+      font-size: 24px;
+      font-weight: 700;
+      margin-left: 20px;
+      text-align: left;
+   }
+   .photo .home{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left:20px;
+      margin-top: 20px;
+      margin-bottom: 57px;
+   }
+   .photo .home img{
+      width: 130px;
+      height: 130px;
+   }
+ }
